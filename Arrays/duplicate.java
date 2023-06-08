@@ -1,3 +1,5 @@
+// sort duplicacy of array
+
 class Solution {
     public int findDuplicate(int[] nums) {
         int slow = nums[0];  //initialy both starting position or 1st number 
