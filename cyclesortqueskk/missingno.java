@@ -2,7 +2,7 @@
 package cyclesortqueskk;
 
 public class missingno {
-    class Solution {
+
     public int missingNumber(int[] arr) {
   
         // keep the element at the correct position by swapping 
@@ -33,4 +33,4 @@ public class missingno {
 
 }
     
-}
+
