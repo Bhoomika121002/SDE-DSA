@@ -1,3 +1,3 @@
 # SDE-DSA
 
-This repository contains the solution of important DSA Questions. 
+This repository contains the solution of Important DSA Questions 
