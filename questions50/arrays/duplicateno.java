@@ -17,7 +17,8 @@ public class duplicateno {
                     count++;
                 }
                 else {
-                break;} 
+                break;
+            } 
 
                 }
                 
