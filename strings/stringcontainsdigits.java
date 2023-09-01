@@ -5,7 +5,6 @@ public class stringcontainsdigits {
         String str = "123";
         System.out.println(stringdigits(str));
     }
-
     public static boolean stringdigits(String str){
         if(str == null || str.isBlank()){
             return false;
