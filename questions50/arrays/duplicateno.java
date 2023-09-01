@@ -19,13 +19,9 @@ public class duplicateno {
                 else {
                 break;
             } 
-
-                }
-                
+                } 
                 if(count > 1){
                     System.out.println(nums[i]);
-                    
-
                 }
             }
     }
