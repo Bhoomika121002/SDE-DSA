@@ -8,9 +8,8 @@ public class pushatbottom {
         s.push(1);
         s.push(2);
         s.push(3);
-
-        pab(4,s);
-
+        //pab(4,s);
+        reverse(s);
         while(!s.isEmpty()){
             System.out.println(s.peek());
             s.pop();
@@ -24,9 +23,17 @@ public class pushatbottom {
             return;
         }
 
-        int top = s.pop();
-        pab(data,s);
-        s.push(top);
+        int top = s.pop();  //remove elements
+        pab(data,s);    //push the new element
+        s.push(top);    //push the removed elements 
     }
-    
+
+    public static void reverse(Stack<Integer> s){
+        if(s.isEmpty()){
+            return;
+        }
+        int top = s.pop();
+        reverse(s);
+        pab(top, s);
+    }   
 }
