@@ -16,7 +16,7 @@ public class stringques {
         for (int i = 0; i < c1.length; i++) {
             char currentChar = c1[i];
 
-            if (i % 2 == 0) { 
+            if (i % 2 == 0) {   //even index 
                 int digit = Character.getNumericValue(currentChar);
 
                 operand = operand * 10 + digit;
