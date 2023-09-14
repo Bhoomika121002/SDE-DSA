@@ -7,7 +7,7 @@ public class trappingrainwater {
         int right[] = new int[n];
         left[0] = a[0];
         for (int i =1 ;  i<n;i++) {
-            left[i] = Math.max (left[i-1],a[i]);
+            left[i] = Math.max (left[i-1],a[i]); //
         }
         right[n-1] = a[n-1];
         for(int i = n-2; i>=0 ; i--){
