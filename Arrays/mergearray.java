@@ -22,7 +22,7 @@ public class mergearray{
             }
             i++;
         }
-        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr1));  //
         System.out.println(Arrays.toString(arr2));
     }
     
